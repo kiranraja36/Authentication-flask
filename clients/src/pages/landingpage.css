@@ -1,0 +1,65 @@
+#img-size{
+    height: 150px;
+    margin-left: 90%;
+    margin-top:-36%;
+    
+}
+#app {
+    text-align: center;
+    width :100%;
+    height : 100vh;
+    color : #fff;
+    background: linear-gradient(-45deg,#a0d2eb,#2763e6,#976fe3,#5403aa);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+#log  {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+  }
+  
+  #log{
+    color: black;
+    background-color:white;
+  
+  }
+  #log:hover{
+    color: white;
+    background-color: black;
+  }
+@keyframes change{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+#text{
+  position: absolute;
+  top: 60%;
+}
+  
