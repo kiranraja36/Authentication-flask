@@ -1,7 +1,7 @@
 # Authentication-flask
 we use JSON Web Tokens (JWT) to authenticate users of your API. First, a user will have to login using a specially created route which returns a token.
 
-#About-JWT
+# About-JWT
 JSON Web Token (JWT) is a compact, URL-safe means of representing claims (information) between two parties. It's commonly used for securely transmitting information between a client (usually a browser or mobile app) and a server. JWTs consist of three parts: a header, a payload, and a signature.
 
 Header: The header typically consists of two parts: the type of the token (JWT) and the signing algorithm being used, such as HMAC SHA256 or RSA. 
