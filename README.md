@@ -4,7 +4,7 @@ we use JSON Web Tokens (JWT) to authenticate users of your API. First, a user wi
 #About-JWT
 JSON Web Token (JWT) is a compact, URL-safe means of representing claims (information) between two parties. It's commonly used for securely transmitting information between a client (usually a browser or mobile app) and a server. JWTs consist of three parts: a header, a payload, and a signature.
 
-Header: The header typically consists of two parts: the type of the token (JWT) and the signing algorithm being used, such as HMAC SHA256 or RSA.
+Header: The header typically consists of two parts: the type of the token (JWT) and the signing algorithm being used, such as HMAC SHA256 or RSA. 
 
 Payload: The payload contains the claims. Claims are statements about an entity (typically, the user) and additional metadata. There are three types of claims: registered, public, and private claims. Registered claims include things like issuer (iss), subject (sub), expiration time (exp), and more. Public claims are defined by those using JWTs, while private claims are custom claims used to share information between parties that agree on their meaning.
 
